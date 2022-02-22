@@ -1,9 +1,6 @@
 body{
-  /* font-family: 'Varela Round'; */
   font-family: 'Source Code Pro';
   background-color: #a8f8ff;
-  /* background-repeat: no-repeat; */
-  /* background-image: url("../Second Site/images/pattern.jpg"); */
   margin: 0;
   background-size: auto;
 }
@@ -15,7 +12,7 @@ body{
   margin: 0;
   background-color: white;
   height: 110vh;
-  background-image: url("images/background3.jpg");
+  background-image: url(images/background3.jpg);
   background-repeat: no-repeat;
   background-size: auto 100vh;
   background-size: cover;
@@ -58,43 +55,6 @@ nav{
 
 
 /* TEAM MEMBERS SECTION */
-/* .team-members{ /* Different Layout */
-  height: 255vh;
-  border: solid 10px black;
-  outline: solid 5px white;
-  margin: -50px 100px 10px 100px;
-  background-color: #f0f0f0;
-}
-.team-members h1{
-  margin: 0;
-  text-align: center;
-  padding: 30px;
-  font-size: 70px;
-  text-decoration: underline;
-}
-
-.members-box-container{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-[class^='member-box-']{
-  width: 30vw;
-  height: 75vh;
-  background-image: url("images/AvatarMaker.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: solid 5px black;
-  outline: solid 2px white;
-  background-position: center;
-  margin: 5px;
-} */
-
-
-
-
 .team-members{
   height: 100vh;
   /* margin: -50px 100px 10px 100px; */
@@ -123,7 +83,7 @@ nav{
 [class^='member-box-']{
   width: 30vw;
   height: 60vh;
-  background-image: url("images/AvatarMaker.png");
+  background-image: url(images/AvatarMaker.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 5px black;
