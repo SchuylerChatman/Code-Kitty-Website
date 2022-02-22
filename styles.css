@@ -1,0 +1,266 @@
+body{
+  font-family: 'Source Code Pro';
+  background-color: #a8f8ff;
+  margin: 0;
+  background-size: auto;
+}
+
+
+/* Project Title Section */
+.project-title{
+  color: orange;
+  margin: 0;
+  background-color: white;
+  height: 110vh;
+  background-image: url("../images/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+  background-size: cover;
+  background-position: 80% 80%;
+  background-position: center;
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+/* .nav-links{
+  font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+}
+.nav-links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: white;
+} */
+
+.logo{
+  text-decoration: underline;
+  padding: 0px 30px;
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Lobster Two';
+}
+
+
+
+
+
+/* TEAM MEMBERS SECTION */
+.team-members{
+  height: 100vh;
+  background-color: white;
+  padding-top: 15px;
+}
+
+.team-members h1{
+  margin: 0;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 70px;
+  text-decoration: underline overline;
+  font-family: 'Fjalla One';
+}
+
+.members-box-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #a8f8ff;
+  padding: 40px 0;
+}
+
+[class^='member-box-']{
+  width: 28vw;
+  height: 55vh;
+  background-image: url(images/AvatarMaker.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 5px black;
+  outline: solid 2px white;
+  background-position: center;
+  margin: 5px;
+  text-align: center;
+}
+
+[class^="member-box-"] h2{
+  opacity: 0;
+  /* visibility: hidden; */
+  font-size: 35px;
+}
+
+.member-box-1, .member-box-3, .member-box-5{
+  background-image: url(images/aa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.member-box-2, .member-box-4{
+  background-image: url(images/cat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 70%;
+  color: white;
+}
+
+[class^="member-box-"]:hover{
+  box-shadow: 0px 0px 100px 10px black;
+  transition: box-shadow 0.5s;
+  z-index: 1;
+}
+
+[class^="member-box-"]:hover h2{
+  /* visibility: visible; */
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+
+
+
+
+
+
+
+
+/* Goal Section */
+.goal{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.goal-screen-1{
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0vw;
+}
+
+.goal-textbox-screen{
+  position: absolute;
+  background-color: inherit;
+}
+
+.goal-screen-1 h1{
+  margin: 0;
+  font-size: 30vh;
+  display: inline-block;
+  font-family: 'Fjalla One';
+}
+
+.arrow{
+  font-size: 20vh;
+  background-color: inherit;
+}
+.arrow{
+  border: none;
+}
+
+.arrow:hover{
+  font-size: 30vh;
+}
+
+
+/* Approach Section */
+
+.approach{
+  height: 100vh;
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+  border-top: solid 10px #a8f8ff;
+}
+
+.approach-textbox-screen{
+  position: absolute;
+  background: white;
+}
+.approach-screen-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  background: white;
+}
+
+.approach-screen-1 h1{
+  font-size: 20vh;
+  font-family: 'Fjalla One';
+}
+
+.more-info-btn{
+  border-radius: 12px;
+  font-size: 5vh;
+  color: white;
+  background-color: black;
+}
+
+.more-info-btn:hover{
+  color: black;
+  background-color: white;
+}
+
+[class*='textbox-screen'] h1{
+  font-size: 10vh;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
+  font-family: 'Fjalla One';
+}
+[class*='textbox-screen'] p{
+  width: 70vw;
+  height: 40vh;
+  text-align: center;
+  border-bottom: solid 1px black;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
+/* Footer Section */
+footer{
+  height: 100px;
+  padding-top: 10px;
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: solid 2px;
+}
+.footer-container h2{
+  margin: 10px 0 0 0;
+  font-family: 'Fjalla One';
+}
+
+.footer-container img{
+  aspect-ratio: 1:1;
+  width: 50px;
+}
