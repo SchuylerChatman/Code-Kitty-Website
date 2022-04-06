@@ -264,3 +264,26 @@ footer{
   aspect-ratio: 1:1;
   width: 50px;
 }
+
+
+/* Progress */
+.progress{
+  text-align: center;
+  background-color: white;
+  padding: 60px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+.progress h1{
+  font-size: 40px;
+}
+
+.progress ul{
+  list-style-type: none;
+  background-color: lightgray;
+}
+
+.progress h3{
+  text-decoration: underline;
+}
